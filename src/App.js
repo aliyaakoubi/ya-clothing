@@ -1,12 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 
-import Home from "./routes/home.component";
-import Navigation from "./routes/navigation.component";
-import Authontication from "./routes/authontication.component";
+import Home from "./routes/home-component/home.component";
+import Navigation from "./routes/navigation-component/navigation.component";
+import Authontication from "./routes/authontification/authontication.component";
+import Shop from "./routes/shop/shop-component";
 
-function Shop() {
-  return <h1>I'm the navaigation bar</h1>;
-}
+
 
 function App() {
   return (

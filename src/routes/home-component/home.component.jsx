@@ -1,5 +1,5 @@
 
-import Directory from "./../components/directory/directory-component";
+import Directory from "../../components/directory/directory-component";
 
 let categories = [
   {

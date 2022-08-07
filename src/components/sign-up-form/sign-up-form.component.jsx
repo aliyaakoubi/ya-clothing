@@ -3,7 +3,7 @@ import {
   createAuthUserWithEmailAndPassword,
   createUserDocumentFromAuth,
 } from "../../utils/firebase/firebase-utils";
-import { UserContext } from "../../contexte/user.contexte";
+// import { UserContext } from "../../contexts/user.context";
 import FormInput from "../form-input/form-input.component";
 import "./sign-up-form.styles.scss";
 import Button from "../button/button.component";
@@ -22,7 +22,7 @@ const SignUp = () => {
 
   
 
-  const resetFormFields=()=>{setFormFields(defaultFormFields)}
+  // const resetFormFields=()=>{setFormFields(defaultFormFields)}
 
   const handleSubMit = async (event) => {
     event.preventDefault();
